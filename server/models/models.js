@@ -15,5 +15,5 @@ const Tasks = sequelize.define('tasks', {
 Lists.hasOne(Tasks)
 
 module.exports = {
-    Tasks, Lists
+    Lists, Tasks
 }
